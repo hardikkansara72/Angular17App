@@ -129,5 +129,4 @@ export class SigninSignupComponent {
       sessionStorage.setItem("IsloggedIn", "false");
     }
   }
-
 }
