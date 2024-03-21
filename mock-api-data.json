@@ -1,0 +1,160 @@
+{
+  "user": [
+    {
+      "name": "1",
+      "mobNumber": "User 1",
+      "age": 29,
+      "dob": "1998-07-23",
+      "email": "hardik@gmail.com",
+      "password": "123456",
+      "address": {
+        "addLine1": "Districe Center",
+        "addLine2": "Prahlad Nagar",
+        "city": "Ahmedabad",
+        "state": "Gujarat",
+        "zipCode": "387552"
+      },
+      "language": [
+        "English",
+        "Hindi",
+        "Bhojpuri",
+        "Gujarati",
+        "Telugu"
+      ],
+      "gender": "Male",
+      "aboutYou": "I am a developer",
+      "uploadPhoto": "photo.jpg",
+      "agreetc": true,
+      "role": "admin",
+      "id": 1
+    },
+    {
+      "id": "7653",
+      "name": "jay",
+      "mobNumber": "45454545545",
+      "age": 22,
+      "dob": "2202-02-02",
+      "email": "jay@gmail.com",
+      "password": "jay123",
+      "address": {
+        "id": 1,
+        "addLine1": "amfdjkfjd",
+        "addLine2": "djfdkfdfjdkf",
+        "city": "dfdfdfdf",
+        "state": "...",
+        "zipCode": "3434343"
+      },
+      "language": "Hindi",
+      "gender": "Male",
+      "uploadPhoto": "C:\\fakepath\\format_3.jpg",
+      "agreetc": true,
+      "aboutYou": "fdfdfdf",
+      "role": "seller"
+    },
+    {
+      "id": "21fa",
+      "name": "Hardik kansara",
+      "mobNumber": "08401832778",
+      "age": 26,
+      "dob": "1998-02-03",
+      "email": "hkgamingtube@gmail.com",
+      "password": "adhjdashdagdhag",
+      "address": {
+        "id": 1,
+        "addLine1": "Khodiyar Nagar, Gondal Road, Rajkot",
+        "addLine2": "djashjaksdghjags",
+        "city": "dashkgdhajsghj",
+        "state": "...",
+        "zipCode": "360004"
+      },
+      "language": "English",
+      "gender": "Male",
+      "uploadPhoto": "C:\\fakepath\\format_2.jpg",
+      "agreetc": true,
+      "aboutYou": "asdasdasdasd",
+      "role": "seller"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "Product1",
+      "uploadPhoto": "photo.jpg",
+      "productDesc": "Same products1",
+      "mrp": "1000",
+      "dp": "499",
+      "status": "published"
+    },
+    {
+      "id": 2,
+      "name": "Product2",
+      "uploadPhoto": "photo.jpg",
+      "productDesc": "Same products2",
+      "mrp": "2000",
+      "dp": "700",
+      "status": "published"
+    },
+    {
+      "id": 3,
+      "name": "Product3",
+      "uploadPhoto": "photo.jpg",
+      "productDesc": "Same products3",
+      "mrp": "3000",
+      "dp": "600",
+      "status": "draft"
+    },
+    {
+      "id": 4,
+      "name": "Product4",
+      "uploadPhoto": "photo.jpg",
+      "productDesc": "Same products4",
+      "mrp": "3000",
+      "dp": "600",
+      "status": "inactive"
+    },
+    {
+      "id": 5,
+      "name": "Product5",
+      "uploadPhoto": "photo.jpg",
+      "productDesc": "Same products5",
+      "mrp": "3000",
+      "dp": "600",
+      "status": "published"
+    },
+    {
+      "id": 6,
+      "name": "Product6",
+      "uploadPhoto": "photo.jpg",
+      "productDesc": "Same products6",
+      "mrp": "3000",
+      "dp": "600",
+      "status": "published"
+    }
+  ],
+  "orders": [
+    {
+      "id": 1,
+      "userId": 1,
+      "sellerID": 2,
+      "product": {
+        "id": 6,
+        "name": "Product6",
+        "uploadPhoto": "photo.jpg",
+        "productDesc": "Same products6",
+        "mrp": "3000",
+        "dp": "600",
+        "status": "published"
+      },
+      "deliveryAddress": {
+        "id": 1,
+        "addLine1": "Home Town",
+        "addLine2": "Prahlad Nagar",
+        "city": "Ahmedabad",
+        "state": "Gujarat",
+        "zipCode": "387552"
+      },
+      "contact": "08401832778",
+      "datetime": "18/02/2024"
+    }
+  ]
+}
