@@ -112,11 +112,12 @@ export class SigninSignupComponent {
           sessionStorage.setItem("role", this.user_data[0].role);
           this.router.navigateByUrl("/buyer-dashboard");
         }
-        alert("Invalid login details!");
+        else{
+          alert("Invalid login details!");
+        }
       }else{
         alert("Invalid!");
       }
-      console.log(this.user_data);
     },error=>{
       console.log(error)
     })
