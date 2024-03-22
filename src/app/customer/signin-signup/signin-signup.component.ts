@@ -90,8 +90,7 @@ export class SigninSignupComponent {
       agreetc:this.user_reg_data.agreetc,
       aboutYou:this.user_reg_data.aboutYou,
       role:this.user_reg_data.role
-    }
-    debugger
+    },
     this.loginService.userRegister(this.user_dto).subscribe((data) => {
       alert("User Register Successfull!");
       this.router.navigateByUrl("/sign-in");

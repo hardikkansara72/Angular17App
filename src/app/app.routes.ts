@@ -12,6 +12,7 @@ import { BuyerDashboardComponent } from './customer/buyer/buyer-dashboard/buyer-
 import { CheckoutComponent } from './customer/buyer/checkout/checkout.component';
 import { PageNotFoundComponent } from './shared/layouts/page-not-found/page-not-found.component';
 import { authGuard } from './auth.guard';
+import { AdminAuthGuardLogin, AdminAuthGuardService, BuyerAuthGuardService, SellerAuthGuardService, SellerBuyerAuthGuardLogin } from './shared/services/auth-guard.service';
 
 export const routes: Routes = [
     { path: "", redirectTo: "home", pathMatch: "full" },
@@ -21,31 +22,31 @@ export const routes: Routes = [
 
     //admin URLS
     {
-        path: "", children: [
+        path: "", canActivate:[AdminAuthGuardLogin], children: [
             { path: "admin-login", component: AdminLoginComponent },
         ]
     },
     {
-        path: "", children: [
+        path: "", canActivate:[AdminAuthGuardService], children: [
             { path: "admin-dashboard", component: AdminDashboardComponent },
             { path: "admin/user", component: UserCrudComponent },
             { path: "admin/product", component: ProductComponent },
         ]
     },
     {
-        path: "", children: [
+        path: "",canActivate:[SellerBuyerAuthGuardLogin], children: [
             { path: "sign-in", component: SigninSignupComponent },
             { path: "sign-up", component: SigninSignupComponent },
         ]
     },
     {
-        path: "", children: [
+        path: "",canActivate:[SellerAuthGuardService], children: [
             { path: "seller-dashboard", component: SellerDashboardComponent },
             { path: "seller/product", component: ProductComponent },
         ]
     },
     {
-        path: "", children: [
+        path: "",canActivate:[BuyerAuthGuardService], children: [
             { path: "buyer-dashboard", component: BuyerDashboardComponent },
             { path: "checkour", component: CheckoutComponent },
         ]
