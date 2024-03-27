@@ -13,12 +13,14 @@ import { CheckoutComponent } from './customer/buyer/checkout/checkout.component'
 import { PageNotFoundComponent } from './shared/layouts/page-not-found/page-not-found.component';
 import { authGuard } from './auth.guard';
 import { AdminAuthGuardLogin, AdminAuthGuardService, BuyerAuthGuardService, SellerAuthGuardService, SellerBuyerAuthGuardLogin } from './shared/services/auth-guard.service';
+import { AboutUsComponent } from './about-us/about-us.component';
 
 export const routes: Routes = [
     { path: "", redirectTo: "home", pathMatch: "full" },
     { path: "home", component: HomeComponent },
     { path: "my-profile", component: UserProfileComponent },
     { path: "contact-us", component: ContactUsComponent },
+    { path: "about-us", component: AboutUsComponent },
 
     //admin URLS
     {
@@ -48,7 +50,7 @@ export const routes: Routes = [
     {
         path: "",canActivate:[BuyerAuthGuardService], children: [
             { path: "buyer-dashboard", component: BuyerDashboardComponent },
-            { path: "checkour", component: CheckoutComponent },
+            { path: "checkout", component: CheckoutComponent },
         ]
     },
     { path: "**", component: PageNotFoundComponent },

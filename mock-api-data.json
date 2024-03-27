@@ -1,37 +1,8 @@
 {
   "user": [
     {
-      "name": "1",
-      "mobNumber": "User 1",
-      "age": 29,
-      "dob": "1998-07-23",
-      "email": "hardik@gmail.com",
-      "password": "123456",
-      "address": {
-        "addLine1": "Districe Center",
-        "addLine2": "Prahlad Nagar",
-        "city": "Ahmedabad",
-        "state": "Gujarat",
-        "zipCode": "387552"
-      },
-      "language": [
-        "English",
-        "Hindi",
-        "Bhojpuri",
-        "Gujarati",
-        "Telugu"
-      ],
-      "gender": "Male",
-      "aboutYou": "I am a developer",
-      "uploadPhoto": "photo.jpg",
-      "agreetc": true,
-      "role": "admin",
-      "id": "1"
-    },
-    {
-      "id": "7653",
-      "name": "jay",
-      "mobNumber": "45454545545",
+      "name": "Buyer User",
+      "mobNumber": "9500095000",
       "age": 22,
       "dob": "2202-02-02",
       "email": "buyer@gmail.com",
@@ -40,131 +11,17 @@
         "id": 1,
         "addLine1": "amfdjkfjd",
         "addLine2": "djfdkfdfjdkf",
-        "city": "dfdfdfdf",
-        "state": "...",
+        "city": "Rajkot",
+        "state": "Gujarat",
         "zipCode": "3434343"
       },
-      "language": "Hindi",
+      "language": "H",
       "gender": "Male",
       "uploadPhoto": "C:\\fakepath\\format_3.jpg",
       "agreetc": true,
       "aboutYou": "fdfdfdf",
-      "role": "seller"
-    },
-    {
-      "id": "21fa",
-      "name": "Hardik kansara",
-      "mobNumber": "08401832778",
-      "age": 26,
-      "dob": "1998-02-03",
-      "email": "hkgamingtube@gmail.com",
-      "password": "Pass@123",
-      "address": {
-        "id": 1,
-        "addLine1": "Khodiyar Nagar, Gondal Road, Rajkot",
-        "addLine2": "djashjaksdghjags",
-        "city": "dashkgdhajsghj",
-        "state": "...",
-        "zipCode": "360004"
-      },
-      "language": "English",
-      "gender": "Male",
-      "uploadPhoto": "C:\\fakepath\\format_2.jpg",
-      "agreetc": true,
-      "aboutYou": "asdasdasdasd",
-      "role": "buyer"
-    },
-    {
-      "id": "57fc",
-      "name": "kamlesh",
-      "mobNumber": "8401832897878787",
-      "age": 29,
-      "dob": "1656-07-23",
-      "email": "kamleshrathod@paramatrix.com",
-      "password": "Password@123",
-      "address": {
-        "id": 1,
-        "addLine1": "Ahmedabad Gita nagar",
-        "addLine2": "sdaajshdajkh",
-        "city": "Ahmedabad",
-        "state": "...",
-        "zipCode": "36785698"
-      },
-      "language": "Gujarati",
-      "gender": "Male",
-      "uploadPhoto": "C:\\fakepath\\PARIPATRA1.jpg",
-      "agreetc": true,
-      "aboutYou": "dlahdjkahdjkahdjkagjhdgahjgfajhgdjhasgdhag",
-      "role": "buyer"
-    },
-    {
-      "id": "5916",
-      "name": "HirenChauhan",
-      "mobNumber": "84018327789",
-      "age": 26,
-      "dob": "1888-07-23",
-      "email": "hirenchauhan@gmail.com",
-      "password": "Password@123",
-      "address": {
-        "id": 1,
-        "addLine1": "Ahmedavad",
-        "addLine2": "Location",
-        "city": "Ahmedabad",
-        "state": "...",
-        "zipCode": "36870004"
-      },
-      "language": "Gujarati",
-      "gender": "Male",
-      "uploadPhoto": "C:\\fakepath\\format_2.jpg",
-      "agreetc": true,
-      "aboutYou": "Hiren is an seller",
-      "role": "seller"
-    },
-    {
-      "id": "d4b2",
-      "name": "Viral Makani",
-      "mobNumber": "9191919191",
-      "age": 26,
-      "dob": "1998-07-23",
-      "email": "viralmakani@gmail.com",
-      "password": "Password@123",
-      "address": {
-        "id": 1,
-        "addLine1": "Ahmedabad",
-        "addLine2": "Location",
-        "city": "Ahmedabad",
-        "state": "...",
-        "zipCode": "3870004"
-      },
-      "language": "Gujarati",
-      "gender": "Female",
-      "uploadPhoto": "C:\\fakepath\\format_3.jpg",
-      "agreetc": true,
-      "aboutYou": "Viral is an Buyer",
-      "role": "buyer"
-    },
-    {
-      "id": "e25a",
-      "name": "mahesh",
-      "mobNumber": "9494949494",
-      "age": 26,
-      "dob": "2001-07-23",
-      "email": "mahesh@gmail.com",
-      "password": "Password@123",
-      "address": {
-        "id": 1,
-        "addLine1": "asgdhjagjhsag",
-        "addLine2": "gahsjgjhdasg",
-        "city": "ghgasjhgjahgjh",
-        "state": "...",
-        "zipCode": "35898989"
-      },
-      "language": "Gujarati",
-      "gender": "Male",
-      "uploadPhoto": "C:\\fakepath\\format_3.jpg",
-      "agreetc": true,
-      "aboutYou": "asdasdhakjsh",
-      "role": "seller"
+      "role": "buyer",
+      "id": "7653"
     },
     {
       "id": "1225",
@@ -190,8 +47,7 @@
       "role": "seller"
     },
     {
-      "id": "8e09",
-      "name": "Admin user",
+      "name": "Admin user1",
       "mobNumber": "8401832778",
       "age": 45,
       "dob": "1998-07-23",
@@ -201,71 +57,135 @@
         "id": 1,
         "addLine1": "Admin Login",
         "addLine2": "Admin",
-        "city": "Admin",
+        "city": "Rajkot",
         "state": "...",
         "zipCode": "365495"
       },
-      "language": "English",
+      "language": "E",
+      "gender": "Male",
+      "agreetc": true,
+      "aboutYou": "Admin User",
+      "role": "admin",
+      "id": "8e09"
+    },
+    {
+      "name": "buyer123",
+      "mobNumber": "8401832778",
+      "age": 26,
+      "dob": "1988-12-03",
+      "email": "buyer123@gmail.com",
+      "password": "Pass@123",
+      "address": {
+        "id": 1,
+        "addLine1": "Ahmedabad Location",
+        "addLine2": "Ahmedabad Location",
+        "city": "Ahmedabad",
+        "state": "Gujarat",
+        "zipCode": "387995"
+      },
+      "language": "Gujarati",
       "gender": "Male",
       "uploadPhoto": "C:\\fakepath\\format_2.jpg",
       "agreetc": true,
-      "aboutYou": "Admin User",
-      "role": "admin"
+      "aboutYou": "I am Buyer123",
+      "role": "buyer",
+      "id": "8240"
+    },
+    {
+      "id": "a5a5",
+      "name": "Abhu",
+      "mobNumber": "840183278987",
+      "age": 23,
+      "dob": "1998-04-05",
+      "email": "abhi@gmail.com",
+      "password": "Pass@123",
+      "address": {
+        "id": 1,
+        "addLine1": "gujaratr",
+        "addLine2": "dhasjkhjaksh",
+        "city": "Rajkot",
+        "state": "Gujarat",
+        "zipCode": "357856"
+      },
+      "language": "Gujarati",
+      "gender": "Male",
+      "uploadPhoto": "C:\\fakepath\\format_2.jpg",
+      "agreetc": true,
+      "aboutYou": "sadasdadas",
+      "role": "buyer"
     }
   ],
   "products": [
     {
       "id": "1",
-      "name": "Product1",
+      "name": "Sonata Poze Quartz Analog Green Dial Metal Strap Watch for Men",
       "uploadPhoto": "photo.jpg",
-      "productDesc": "Same products1",
+      "productDesc": "Titan Company Limited, #3, SIPCOT Industrial Complex, Hosur - 635126, Tamil Nadu; Telephone : +91-(0)4344-664199 Country Of Origin - PRC Imported By - Titan Company Limited, #3, SIPCOT Industrial Complex, Hosur - 635126, Tamil Nadu; Telephone : +91-(0)4344-664199 Net Quantity: 1 N Contact customer care executive at the above-mentioned address or call us at 1800-266-0123. Email us at customercare@titan.co.in",
       "mrp": "1000",
       "dp": "499",
       "status": "published"
     },
     {
       "id": "2",
-      "name": "Product2",
-      "uploadPhoto": "photo.jpg",
-      "productDesc": "Same products2",
+      "name": "Sonata Poze Quartz Analog Black Dial Metal Strap Watch for Men",
+      "uploadPhoto": "photo2.jpg",
+      "productDesc": "Titan Company Limited, #3, SIPCOT Industrial Complex, Hosur - 635126, Tamil Nadu; Telephone : +91-(0)4344-664199 Country Of Origin - PRC Imported  By - Titan Company Limited, #3, SIPCOT Industrial Complex, Hosur - 635126, Tamil Nadu; Telephone : +91-(0)4344-664199 Net Quantity: 1 N Contact customer care executive at the above-mentioned address or call us at 1800-266-0123. Email us at customercare@titan.co.in",
       "mrp": "2000",
       "dp": "700",
       "status": "published"
     },
     {
       "id": "3",
-      "name": "Product3",
-      "uploadPhoto": "photo.jpg",
-      "productDesc": "Same products3",
+      "name": "Sonata Poze Quartz Analog Blue Dial Leather Strap Watch for Men",
+      "uploadPhoto": "photo3.jpg",
+      "productDesc": "Titan Company Limited, #3, SIPCOT Industrial Complex, Hosur - 635126, Tamil Nadu; Telephone : +91-(0)4344-664199 Country Of Origin - PRC Imported  By - Titan Company Limited, #3, SIPCOT Industrial Complex, Hosur - 635126, Tamil Nadu; Telephone : +91-(0)4344-664199 Net Quantity: 1 N Contact customer care executive at the above-mentioned address or call us at 1800-266-0123. Email us at customercare@titan.co.in",
       "mrp": "3000",
-      "dp": "600",
+      "dp": "925",
       "status": "draft"
     },
     {
       "id": "4",
-      "name": "Product4",
-      "uploadPhoto": "photo.jpg",
-      "productDesc": "Same products4",
+      "name": "Sonata Poze Quartz Analog Black Dial Leather Strap Watch for Men",
+      "uploadPhoto": "photo4.jpg",
+      "productDesc": "Titan Company Limited, #3, SIPCOT Industrial Complex, Hosur - 635126, Tamil Nadu; Telephone : +91-(0)4344-664199 Country Of Origin - PRC Imported  By - Titan Company Limited, #3, SIPCOT Industrial Complex, Hosur - 635126, Tamil Nadu; Telephone : +91-(0)4344-664199 Net Quantity: 1 N Contact customer care executive at the above-mentioned address or call us at 1800-266-0123. Email us at customercare@titan.co.in",
       "mrp": "3000",
-      "dp": "600",
+      "dp": "1200",
       "status": "inactive"
     },
     {
       "id": "5",
-      "name": "Product5",
-      "uploadPhoto": "photo.jpg",
-      "productDesc": "Same products5",
-      "mrp": "3000",
-      "dp": "600",
+      "name": "SF Digital Dial Grey PU Strap Watch for Men",
+      "uploadPhoto": "photo5.jpg",
+      "productDesc": "Titan Company Limited, #3, SIPCOT Industrial Complex, Hosur - 635126, Tamil Nadu; Telephone : +91-(0)4344-664199 Country Of Origin - PRC Imported  By - Titan Company Limited, #3, SIPCOT Industrial Complex, Hosur - 635126, Tamil Nadu; Telephone : +91-(0)4344-664199 Net Quantity: 1 N Contact customer care executive at the above-mentioned address or call us at 1800-266-0123. Email us at customercare@titan.co.in",
+      "mrp": "4500",
+      "dp": "1800",
       "status": "published"
     },
     {
       "id": "6",
-      "name": "Product6",
-      "uploadPhoto": "photo.jpg",
-      "productDesc": "Same products6",
-      "mrp": "3000",
-      "dp": "600",
+      "name": "Sonata Poze Quartz Analog Blue Dial Leather Strap Watch for Men",
+      "uploadPhoto": "photo6.jpg",
+      "productDesc": "Titan Company Limited, #3, SIPCOT Industrial Complex, Hosur - 635126, Tamil Nadu; Telephone : +91-(0)4344-664199 Country Of Origin - PRC Imported  By - Titan Company Limited, #3, SIPCOT Industrial Complex, Hosur - 635126, Tamil Nadu; Telephone : +91-(0)4344-664199 Net Quantity: 1 N Contact customer care executive at the above-mentioned address or call us at 1800-266-0123. Email us at customercare@titan.co.in",
+      "mrp": "9000",
+      "dp": "6500",
+      "status": "published"
+    },
+    {
+      "id": "7",
+      "name": "Sonata Poze Quartz Analog Grey Dial Silicone Strap Watch for Men",
+      "uploadPhoto": "photo8.jpg",
+      "productDesc": "Titan Company Limited, #3, SIPCOT Industrial Complex, Hosur - 635126, Tamil Nadu; Telephone : +91-(0)4344-664199\nCountry Of Origin - PRC\nImported By - Titan Company Limited, #3, SIPCOT Industrial Complex, Hosur - 635126, Tamil Nadu; Telephone : +91-(0)4344-664199\nNet Quantity: 1 N\nContact customer care executive at the above-mentioned address or call us at 1800-266-0123. Email us at customercare@titan.co.in",
+      "mrp": "1675",
+      "dp": "995",
+      "status": "published"
+    },
+    {
+      "id": "82ea",
+      "name": "Poze by Sonata Quartz Analog Grey Dial PU Leather Strap Watch for Men",
+      "uploadPhoto": "photo11.jpg",
+      "productDesc": "Titan Company Limited, #3, SIPCOT Industrial Complex, Hosur - 635126, Tamil Nadu; Telephone : +91-(0)4344-664199\nCountry Of Origin - PRC\nImported By - Titan Company Limited, #3, SIPCOT Industrial Complex, Hosur - 635126, Tamil Nadu; Telephone : +91-(0)4344-664199\nNet Quantity: 1 N\nContact customer care executive at the above-mentioned address or call us at 1800-266-0123. Email us at customercare@titan.co.in",
+      "mrp": "6500",
+      "dp": "2925",
       "status": "published"
     }
   ],
@@ -293,6 +213,174 @@
       },
       "contact": "08401832778",
       "datetime": "18/02/2024"
+    },
+    {
+      "id": "0",
+      "userId": "8240",
+      "sellerId": 2,
+      "product": {
+        "id": "2",
+        "name": "Sonata Poze Quartz Analog Black Dial Metal Strap Watch for Men",
+        "uploadPhoto": "photo2.jpg",
+        "productDesc": "Titan Company Limited, #3, SIPCOT Industrial Complex, Hosur - 635126, Tamil Nadu; Telephone : +91-(0)4344-664199 Country Of Origin - PRC Imported  By - Titan Company Limited, #3, SIPCOT Industrial Complex, Hosur - 635126, Tamil Nadu; Telephone : +91-(0)4344-664199 Net Quantity: 1 N Contact customer care executive at the above-mentioned address or call us at 1800-266-0123. Email us at customercare@titan.co.in",
+        "mrp": "2000",
+        "dp": "700",
+        "status": "published"
+      },
+      "deliveryAddress": {
+        "id": 0,
+        "addLine1": "Ahmedabad Location",
+        "addLine2": "Ahmedabad Location",
+        "city": "Ahmedabad",
+        "state": "Gujarat",
+        "zipCode": "387995"
+      },
+      "contact": "8401832778",
+      "datetime": "3/27/2024"
+    },
+    {
+      "id": "0",
+      "userId": "8240",
+      "sellerId": 2,
+      "product": {
+        "id": "1",
+        "name": "Sonata Poze Quartz Analog Green Dial Metal Strap Watch for Men",
+        "uploadPhoto": "photo.jpg",
+        "productDesc": "Titan Company Limited, #3, SIPCOT Industrial Complex, Hosur - 635126, Tamil Nadu; Telephone : +91-(0)4344-664199 Country Of Origin - PRC Imported By - Titan Company Limited, #3, SIPCOT Industrial Complex, Hosur - 635126, Tamil Nadu; Telephone : +91-(0)4344-664199 Net Quantity: 1 N Contact customer care executive at the above-mentioned address or call us at 1800-266-0123. Email us at customercare@titan.co.in",
+        "mrp": "1000",
+        "dp": "499",
+        "status": "published"
+      },
+      "deliveryAddress": {
+        "id": 0,
+        "addLine1": "Ahmedabad Location",
+        "addLine2": "Ahmedabad Location",
+        "city": "Ahmedabad",
+        "state": "Gujarat",
+        "zipCode": "387995"
+      },
+      "contact": "8401832778",
+      "datetime": "3/27/2024"
+    },
+    {
+      "id": "0",
+      "userId": "8240",
+      "sellerId": 2,
+      "product": {
+        "id": "1",
+        "name": "Sonata Poze Quartz Analog Green Dial Metal Strap Watch for Men",
+        "uploadPhoto": "photo.jpg",
+        "productDesc": "Titan Company Limited, #3, SIPCOT Industrial Complex, Hosur - 635126, Tamil Nadu; Telephone : +91-(0)4344-664199 Country Of Origin - PRC Imported By - Titan Company Limited, #3, SIPCOT Industrial Complex, Hosur - 635126, Tamil Nadu; Telephone : +91-(0)4344-664199 Net Quantity: 1 N Contact customer care executive at the above-mentioned address or call us at 1800-266-0123. Email us at customercare@titan.co.in",
+        "mrp": "1000",
+        "dp": "499",
+        "status": "published"
+      },
+      "deliveryAddress": {
+        "id": 0,
+        "addLine1": "Ahmedabad Location",
+        "addLine2": "Ahmedabad Location",
+        "city": "Ahmedabad",
+        "state": "Gujarat",
+        "zipCode": "387995"
+      },
+      "contact": "8401832778",
+      "datetime": "3/27/2024"
+    },
+    {
+      "id": "0",
+      "userId": "8240",
+      "sellerId": 2,
+      "product": {
+        "id": "1",
+        "name": "Sonata Poze Quartz Analog Green Dial Metal Strap Watch for Men",
+        "uploadPhoto": "photo.jpg",
+        "productDesc": "Titan Company Limited, #3, SIPCOT Industrial Complex, Hosur - 635126, Tamil Nadu; Telephone : +91-(0)4344-664199 Country Of Origin - PRC Imported By - Titan Company Limited, #3, SIPCOT Industrial Complex, Hosur - 635126, Tamil Nadu; Telephone : +91-(0)4344-664199 Net Quantity: 1 N Contact customer care executive at the above-mentioned address or call us at 1800-266-0123. Email us at customercare@titan.co.in",
+        "mrp": "1000",
+        "dp": "499",
+        "status": "published"
+      },
+      "deliveryAddress": {
+        "id": 0,
+        "addLine1": "Ahmedabad Location",
+        "addLine2": "Ahmedabad Location",
+        "city": "Ahmedabad",
+        "state": "Gujarat",
+        "zipCode": "387995"
+      },
+      "contact": "8401832778",
+      "datetime": "3/27/2024"
+    },
+    {
+      "id": "0",
+      "userId": "8240",
+      "sellerId": 2,
+      "product": {
+        "id": "2",
+        "name": "Sonata Poze Quartz Analog Black Dial Metal Strap Watch for Men",
+        "uploadPhoto": "photo2.jpg",
+        "productDesc": "Titan Company Limited, #3, SIPCOT Industrial Complex, Hosur - 635126, Tamil Nadu; Telephone : +91-(0)4344-664199 Country Of Origin - PRC Imported  By - Titan Company Limited, #3, SIPCOT Industrial Complex, Hosur - 635126, Tamil Nadu; Telephone : +91-(0)4344-664199 Net Quantity: 1 N Contact customer care executive at the above-mentioned address or call us at 1800-266-0123. Email us at customercare@titan.co.in",
+        "mrp": "2000",
+        "dp": "700",
+        "status": "published"
+      },
+      "deliveryAddress": {
+        "id": 0,
+        "addLine1": "Ahmedabad Location",
+        "addLine2": "Ahmedabad Location",
+        "city": "Ahmedabad",
+        "state": "Gujarat",
+        "zipCode": "387995"
+      },
+      "contact": "8401832778",
+      "datetime": "3/27/2024"
+    },
+    {
+      "id": 0,
+      "userId": "8240",
+      "sellerId": 2,
+      "product": {
+        "id": "1",
+        "name": "Sonata Poze Quartz Analog Green Dial Metal Strap Watch for Men",
+        "uploadPhoto": "photo.jpg",
+        "productDesc": "Titan Company Limited, #3, SIPCOT Industrial Complex, Hosur - 635126, Tamil Nadu; Telephone : +91-(0)4344-664199 Country Of Origin - PRC Imported By - Titan Company Limited, #3, SIPCOT Industrial Complex, Hosur - 635126, Tamil Nadu; Telephone : +91-(0)4344-664199 Net Quantity: 1 N Contact customer care executive at the above-mentioned address or call us at 1800-266-0123. Email us at customercare@titan.co.in",
+        "mrp": "1000",
+        "dp": "499",
+        "status": "published"
+      },
+      "deliveryAddress": {
+        "id": 0,
+        "addLine1": "Ahmedabad Location",
+        "addLine2": "Ahmedabad Location",
+        "city": "Ahmedabad",
+        "state": "Gujarat",
+        "zipCode": "387995"
+      },
+      "contact": "8401832778",
+      "datetime": "3/27/2024"
+    },
+    {
+      "id": 0,
+      "userId": "7653",
+      "sellerId": 2,
+      "product": {
+        "id": "1",
+        "name": "Sonata Poze Quartz Analog Green Dial Metal Strap Watch for Men",
+        "uploadPhoto": "photo.jpg",
+        "productDesc": "Titan Company Limited, #3, SIPCOT Industrial Complex, Hosur - 635126, Tamil Nadu; Telephone : +91-(0)4344-664199 Country Of Origin - PRC Imported By - Titan Company Limited, #3, SIPCOT Industrial Complex, Hosur - 635126, Tamil Nadu; Telephone : +91-(0)4344-664199 Net Quantity: 1 N Contact customer care executive at the above-mentioned address or call us at 1800-266-0123. Email us at customercare@titan.co.in",
+        "mrp": "1000",
+        "dp": "499",
+        "status": "published"
+      },
+      "deliveryAddress": {
+        "id": 0,
+        "addLine1": "amfdjkfjd",
+        "addLine2": "djfdkfdfjdkf",
+        "city": "Rajkot",
+        "state": "Gujarat",
+        "zipCode": "3434343"
+      },
+      "contact": "9500095000",
+      "datetime": "3/27/2024"
     }
   ]
 }

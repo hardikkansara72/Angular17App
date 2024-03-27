@@ -68,11 +68,11 @@ export class AdminDashboardComponent implements OnInit {
       console.log("product_dashboard_data", this.product_dashboard_data);
 
       for(let status in this.product_dashboard_data){
-        if(this.product_dashboard_data[status]=="published"){
+        if(this.product_dashboard_data[status].status=="published"){
           ++this.publish_product;
-        }else if(this.product_dashboard_data[status]=="inactive"){
+        }else if(this.product_dashboard_data[status].status=="inactive"){
           ++this.inactive_product;
-        }else if(this.product_dashboard_data[status]=="draft"){
+        }else if(this.product_dashboard_data[status].status=="draft"){
           ++this.draft_product;
         }
         ++this.total_product;

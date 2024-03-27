@@ -9,10 +9,10 @@ export class AdminService {
   // public user_url:string = "/user"
   // public product_url:string = "/product"
   // public order_url:string = "/order"
-  public user_url = "http://localhost:3000/user/";
-  public product_url = "http://localhost:3000/products";
-  public order_url = "http://localhost:3000/orders";
-  public all_user = "http://localhost:3000/user";
+  public user_url = "/user/";
+  public product_url = "/products";
+  public order_url = "/orders";
+  public all_user = "/user";
 
   constructor(private apiService:ApiService) { }
 
@@ -26,19 +26,19 @@ export class AdminService {
     return this.apiService.get(this.order_url);
   }
   allUser():Observable<any>{
-    return this.apiService.get(this.all_user);
+    return this.apiService.get('/user');
   }
   addUser(user_dto:any){
-    return this.apiService.post(this.user_url, user_dto);
+    return this.apiService.post('/user/', user_dto);
   }
 
   //Get data of Individual user;
   singleUser(user_id:any){
-    return this.apiService.get(this.user_url, user_id);
+    return this.apiService.get('/user/'+user_id);
   }
   //Update data of Individual user
   editUser(user_id:any, user_dto:any):Observable<any>{
-    return this.apiService.post(this.user_url+user_id, user_dto);
+    return this.apiService.put('/user/'+user_id, user_dto);
   }
   //Delete user
   deleteUser(user_id:any){

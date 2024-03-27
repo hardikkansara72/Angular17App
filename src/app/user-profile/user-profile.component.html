@@ -1,1 +1,104 @@
-<p>user-profile works!</p>
+<br>
+<div class="jumbotron">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-10 offset-1">
+                <form [formGroup]="userProfileForm" (ngSubmit)="updateProfile()">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" class="form-control" formControlName="name">
+                    </div>
+                    <div class="form-group">
+                        <label for="mobile">Mobile Number</label>
+                        <input type="tel" class="form-control" formControlName="mobNumber">
+                    </div>
+                    <div class="form-group">
+                        <label for="age">Enter Your Age</label>
+                        <input type="number" class="form-control" formControlName="age">
+                    </div>
+                    <div class="form-group">
+                        <label for="dob">Enter Your DOB</label>
+                        <input type="date" class="form-control" formControlName="dob">
+                    </div>
+
+                    <!--New Row-->
+                    <div class="form-row">
+                        <div class="form-group col-md-6">
+                            <label for="email">Email</label>
+                            <input type="email" class="form-control" placeholder="ashish@gmail.com"
+                                formControlName="email">
+                        </div>
+                        <div class="form-group col-md-6">
+                            <label for="password">Password</label>
+                            <input type="password" class="form-control" formControlName="password"
+                                placeholder="Enter Your Password">
+                        </div>
+                        <div class="form-group">
+                            <label for="address1">Address 1</label>
+                            <input type="text" class="form-control" formControlName="addLine1">
+                        </div>
+                        <div class="form-group">
+                            <label for="address2">Address 2</label>
+                            <input type="text" class="form-control" formControlName="addLine2">
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group col-md-6">
+                            <label for="city">City</label>
+                            <input type="text" class="form-control" formControlName="city">
+                        </div>
+                        <div class="form-group">
+                            <label for="state">State</label>
+                            <select name="" id="inputState" class="form-control" formControlName="state">
+                                <option selected>Chosse...</option>
+                                <option>Gujarat</option>
+                                <option>Maharashtra</option>
+                                <option>Tamilnadu</option>
+                            </select>
+                        </div>
+                        <div class="form-group col-md-6">
+                            <label for="zipCode">ZipCode</label>
+                            <input type="text" class="form-control" formControlName="zipCode">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="language">Language</label>
+                        <select multiple class="form-control" formControlName="language">
+                            <option>Hindi</option>
+                            <option>English</option>
+                            <option>Gujarati</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="gender">Gender</label>
+                        <div class="form-check form-check-inline">
+                            <input type="radio" class="form-check" formControlName="gender" value="Male">
+                            <label for="male" class="form-check-inline">Male</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input type="radio" class="form-check" formControlName="gender" value="Female">
+                            <label for="female" class="form-check-inline">Female</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input type="radio" class="form-check" formControlName="gender" value="Other">
+                            <label for="other" class="form-check-inline">Other</label>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="somethingAboutYou" class="form-check-inline">Something About You</label>
+                        <textarea name="" cols="30" rows="10" class="form-control"
+                            formControlName="aboutYou"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label for="uploadPhoto" class="form-check-inline">Upload Photo</label>
+                        <input type="file" name="" formControlName="uploadPhoto">
+                    </div>
+                    
+                    <div class="form-group">
+                        <button type="submit" class="btn btn-primary">Update Your Profile</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
