@@ -153,29 +153,4 @@ export class ProductComponent implements OnInit {
       alert("You click Cancel!");
     }
   }
-
-  // onUpload(event:any) {
-  //   const file = event.target.files[0];
-  //   const reader = new FileReader();
-
-  //   reader.onload = () => {
-  //     const image = new Image()
-  //     image.src = reader
-  //     image.src = reader.result;
-  //     image.onload = () => {
-  //       const canvas = document.createElement('canvas');
-  //       canvas.width = image.width;
-  //       canvas.height = image.height;
-  //       const ctx = canvas.getContext('2d');
-  //       ctx.drawImage(image, 0, 0);
-  //       const dataURL = canvas.toDataURL('image/png');
-  //       const assetPath = 'assets/images/' + file.name;
-  //       const blob = new Blob([dataURL], { type: 'image/png' });
-  //       const fileSaver = new FileSaver(blob, assetPath);
-  //       fileSaver.save();
-  //     };
-  //   };
-  //   reader.readAsDataURL(file);
-  // }
-
 }

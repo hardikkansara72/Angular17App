@@ -7,7 +7,7 @@
     </ol>
 </nav>
 <div class="row">
-    <div class="col-sm-4" *ngFor="let product of all_products">
+    <div class="col-sm-4 my-3" *ngFor="let product of all_products">
         <div class="card">
             <img src="assets/images/{{product.uploadPhoto}}" alt="{{product.name}}" class="card-img-top">
             <div class="card-body">
@@ -15,7 +15,7 @@
                 <p><span class="float-left"><strong>MRP</strong>:><del>{{product.mrp}}</del></span><span class="float-right"><strong>DP</strong>:{{product.dp}}</span></p>
                 <br>
                 <p class="card-text product-desc">{{product.productDesc}}</p>
-                <a (click)="addToCart()" class="btn btn-primary float-left">Add to Cart</a>
+                <a (click)="addToCart()" class="btn btn-primary mx-2 float-left">Add to Cart</a>
                 <a (click)="buyProducts(product.id)" class="btn btn-warning float-right">Buy Now</a>
             </div>
         </div>

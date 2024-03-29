@@ -24,4 +24,6 @@ export class LoginSingupService {
   adminLogin(user_name:any, password:any):Observable<any>{
     return this.apiService.get('/user?email='+user_name+'&password='+password+'&role=admin')
   }
+
+  
 }

@@ -24,6 +24,8 @@ export class SigninSignupComponent {
   user_dto!:User;
   user_reg_data:any;
   signInFormValue:any = {};
+  forgotpassword:boolean = false;
+  forgorPasswordForm!:FormGroup;
 
   constructor(private formBuilder:FormBuilder, private router:Router, private loginService:LoginSingupService){}
 

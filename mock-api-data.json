@@ -17,7 +17,6 @@
       },
       "language": "H",
       "gender": "Male",
-      "uploadPhoto": "C:\\fakepath\\format_3.jpg",
       "agreetc": true,
       "aboutYou": "fdfdfdf",
       "role": "buyer",
@@ -36,18 +35,18 @@
         "addLine1": "AddressCodes",
         "addLine2": "Address",
         "city": "Ahmedabad",
-        "state": "...",
+        "state": "Gujarat",
         "zipCode": "36874568"
       },
       "language": "English",
       "gender": "Male",
-      "uploadPhoto": "C:\\fakepath\\format_3.jpg",
+      "uploadPhoto": "hardikk.jpg",
       "agreetc": true,
       "aboutYou": "Selller",
       "role": "seller"
     },
     {
-      "name": "Admin user1",
+      "name": "Admin user",
       "mobNumber": "8401832778",
       "age": 45,
       "dob": "1998-07-23",
@@ -58,7 +57,7 @@
         "addLine1": "Admin Login",
         "addLine2": "Admin",
         "city": "Rajkot",
-        "state": "...",
+        "state": "Gujarat",
         "zipCode": "365495"
       },
       "language": "E",
@@ -66,6 +65,7 @@
       "agreetc": true,
       "aboutYou": "Admin User",
       "role": "admin",
+      "uploadPhoto": "hardikk.jpg",
       "id": "8e09"
     },
     {
@@ -85,7 +85,7 @@
       },
       "language": "Gujarati",
       "gender": "Male",
-      "uploadPhoto": "C:\\fakepath\\format_2.jpg",
+      "uploadPhoto": "jayg.png",
       "agreetc": true,
       "aboutYou": "I am Buyer123",
       "role": "buyer",
@@ -112,6 +112,29 @@
       "uploadPhoto": "C:\\fakepath\\format_2.jpg",
       "agreetc": true,
       "aboutYou": "sadasdadas",
+      "role": "buyer"
+    },
+    {
+      "id": "d60c",
+      "name": "Harsh Kachhadiya",
+      "mobNumber": "1234567890",
+      "age": 26,
+      "dob": "1998-12-07",
+      "email": "harsh@gmail.com",
+      "password": "Pass@123",
+      "address": {
+        "id": 1,
+        "addLine1": "Amreli Disctrict",
+        "addLine2": "Amreli Disctrict",
+        "city": "Amreli",
+        "state": "...",
+        "zipCode": "387004"
+      },
+      "language": "English",
+      "gender": "Male",
+      "uploadPhoto": "C:\\fakepath\\harshk.png",
+      "agreetc": true,
+      "aboutYou": "Hello I am Hashubhai",
       "role": "buyer"
     }
   ],
@@ -187,6 +210,15 @@
       "mrp": "6500",
       "dp": "2925",
       "status": "published"
+    },
+    {
+      "name": "watches",
+      "uploadPhoto": "photo2.jpg",
+      "productDesc": "Harsh Watch Rolex",
+      "mrp": "95000",
+      "dp": "45000",
+      "status": "published",
+      "id": "29ac"
     }
   ],
   "orders": [
@@ -335,7 +367,7 @@
       "datetime": "3/27/2024"
     },
     {
-      "id": 0,
+      "id": "0",
       "userId": "8240",
       "sellerId": 2,
       "product": {
@@ -356,6 +388,30 @@
         "zipCode": "387995"
       },
       "contact": "8401832778",
+      "datetime": "3/27/2024"
+    },
+    {
+      "id": "0",
+      "userId": "7653",
+      "sellerId": 2,
+      "product": {
+        "id": "1",
+        "name": "Sonata Poze Quartz Analog Green Dial Metal Strap Watch for Men",
+        "uploadPhoto": "photo.jpg",
+        "productDesc": "Titan Company Limited, #3, SIPCOT Industrial Complex, Hosur - 635126, Tamil Nadu; Telephone : +91-(0)4344-664199 Country Of Origin - PRC Imported By - Titan Company Limited, #3, SIPCOT Industrial Complex, Hosur - 635126, Tamil Nadu; Telephone : +91-(0)4344-664199 Net Quantity: 1 N Contact customer care executive at the above-mentioned address or call us at 1800-266-0123. Email us at customercare@titan.co.in",
+        "mrp": "1000",
+        "dp": "499",
+        "status": "published"
+      },
+      "deliveryAddress": {
+        "id": 0,
+        "addLine1": "amfdjkfjd",
+        "addLine2": "djfdkfdfjdkf",
+        "city": "Rajkot",
+        "state": "Gujarat",
+        "zipCode": "3434343"
+      },
+      "contact": "9500095000",
       "datetime": "3/27/2024"
     },
     {
@@ -380,7 +436,7 @@
         "zipCode": "3434343"
       },
       "contact": "9500095000",
-      "datetime": "3/27/2024"
+      "datetime": "3/28/2024"
     }
   ]
 }

@@ -107,7 +107,7 @@
             </div>
 
             <!-- Login Form -->
-            <div class="col-md-6 offset-md-3" *ngIf="!regForm">
+            <div class="my-3 col-md-6 offset-md-3" *ngIf="!regForm">
                 <h3> Login - Angular 17 Login</h3>
                 <form class="my-3" name="form" #tf="ngForm" (ngSubmit)="tf.form.valid && onSubmitSignin()" novalidate>
                     <div class="form-group">
@@ -118,11 +118,13 @@
                         <label for="password">Password</label>
                         <input type="password" name="userPassword" class="form-control" #userPassword="ngModel" minlength="6" togglePassword [(ngModel)]="signInFormValue.userPassword">
                     </div>
-                    <div class="form-group">
+                    <div class="form-group my-2">
                         <button type="submit" class="btn btn-primary">Login</button>
+                        <button type="button" class="mx-2 btn btn-warning">Forgot Password</button>
                     </div>
                 </form>
                 <p class="sim-pointer" routerLink="/sign-up">Don't have an acount click here to Register</p>
+                
             </div>            
         </div>
     </div>
