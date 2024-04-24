@@ -1,6 +1,9 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
 import { SellerDashboardComponent } from './seller-dashboard.component';
+import { CustomerService } from '../../services/customer.service';
+import { ApiService } from '../../../core/service/api.service';
+import { HttpClient, HttpHandler } from '@angular/common/http';
 
 describe('SellerDashboardComponent', () => {
   let component: SellerDashboardComponent;
@@ -8,7 +11,8 @@ describe('SellerDashboardComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [SellerDashboardComponent]
+      imports: [SellerDashboardComponent],
+      providers:[CustomerService, ApiService, HttpClient, HttpHandler]
     })
     .compileComponents();
     

@@ -16,43 +16,43 @@ import { AdminAuthGuardLogin, AdminAuthGuardService, BuyerAuthGuardService, Sell
 import { AboutUsComponent } from './about-us/about-us.component';
 
 export const routes: Routes = [
-    { path: "", redirectTo: "home", pathMatch:"full" },
+    { path: "", redirectTo: "home", pathMatch: "full" },
     { path: "home", component: HomeComponent },
-    { path: "my-profile", component: UserProfileComponent },
-    { path: "contact-us", component: ContactUsComponent },
-    { path: "about-us", component: AboutUsComponent },
+    { path: "my-profile", component: UserProfileComponent, title: "My Profile" },
+    { path: "contact-us", component: ContactUsComponent, title:"Contact-Us" },
+    { path: "about-us", component: AboutUsComponent, title:"About-Us" },
 
     //admin URLS
     {
-        path: "", canActivate:[AdminAuthGuardLogin], children: [
-            { path: "admin-login", component: AdminLoginComponent },
+        path: "", canActivate: [AdminAuthGuardLogin], children: [
+            { path: "admin-login", component: AdminLoginComponent, title:"Admin Login" },
         ]
     },
     {
-        path: "", canActivate:[AdminAuthGuardService], children: [
-            { path: "admin-dashboard", component: AdminDashboardComponent },
-            { path: "admin/user", component: UserCrudComponent },
-            { path: "admin/product", component: ProductComponent },
+        path: "", canActivate: [AdminAuthGuardService], children: [
+            { path: "admin-dashboard", component: AdminDashboardComponent, title:"Admin-dashboard" },
+            { path: "admin/user", component: UserCrudComponent, title:"User Details" },
+            { path: "admin/product", component: ProductComponent, title:"Product Details" },
         ]
     },
     {
-        path: "",canActivate:[SellerBuyerAuthGuardLogin], children: [
-            { path: "sign-in", component: SigninSignupComponent },
-            { path: "sign-up", component: SigninSignupComponent },
+        path: "", canActivate: [SellerBuyerAuthGuardLogin], children: [
+            { path: "sign-in", component: SigninSignupComponent, title:"Sing In Page"},
+            { path: "sign-up", component: SigninSignupComponent, title:"Sign-Up Page"},
         ]
     },
     {
-        path: "",canActivate:[SellerAuthGuardService], children: [
-            { path: "seller-dashboard", component: SellerDashboardComponent },
-            { path: "seller/product", component: ProductComponent },
+        path: "", canActivate: [SellerAuthGuardService], children: [
+            { path: "seller-dashboard", component: SellerDashboardComponent, title:"Seller Dashboard" },
+            { path: "seller/product", component: ProductComponent, title:"Seller Products" },
         ]
     },
     {
-        path: "",canActivate:[BuyerAuthGuardService], children: [
-            { path: "buyer-dashboard", component: BuyerDashboardComponent },
-            { path: "checkout", component: CheckoutComponent },
+        path: "", canActivate: [BuyerAuthGuardService], children: [
+            { path: "buyer-dashboard", component: BuyerDashboardComponent, title:"Buyer Dashboard" },
+            { path: "checkout", component: CheckoutComponent, title:"Checkout" },
         ]
     },
-    { path: "**", component: PageNotFoundComponent },
+    { path: "**", component: PageNotFoundComponent, title:"Page not found" },
 
 ];

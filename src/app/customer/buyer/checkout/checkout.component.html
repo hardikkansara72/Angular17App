@@ -22,11 +22,11 @@
                         <img src="assets/images/{{individual_product?.uploadPhoto}}" class="card-img" alt="{{individual_product?.name}}" srcset="">
                     </div>
                     <div class="col-md-8">
-                        <h4 class="text-bold card-title">{{individual_product?.name}}</h4>
+                        <h4 class="text-bold card-title">{{individual_product!.name}}</h4>
                         <br>
-                        <p class="card-text product-desc">{{individual_product?.productDesc}}</p>
-                        <p><span class="float-left"><strong>MRP</strong>: <del>{{individual_product?.mrp}}</del></span> &nbsp; &nbsp;
-                        <span class="float-right"><strong>DP</strong>: {{individual_product?.dp}}</span></p>
+                        <p class="card-text product-desc">{{individual_product!.productDesc}}</p>
+                        <p><span class="float-left"><strong>MRP</strong>: <del>{{individual_product!.mrp}}</del></span> &nbsp; &nbsp;
+                        <span class="float-right"><strong>DP</strong>: {{individual_product!.dp}}</span></p>
                     </div>
                 </div>
             </div>

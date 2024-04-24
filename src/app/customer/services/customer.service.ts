@@ -1,10 +1,12 @@
-import { Injectable } from '@angular/core';
+import { Injectable, NgModule } from '@angular/core';
 import { ApiService } from '../../core/service/api.service';
 import { BehaviorSubject, Observable } from 'rxjs';
+import { HttpClientModule } from '@angular/common/http';
 
 @Injectable({
   providedIn: 'root'
 })
+
 export class CustomerService {
 
   private single_product_id = new BehaviorSubject(null);

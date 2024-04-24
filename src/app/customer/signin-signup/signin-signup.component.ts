@@ -1,7 +1,7 @@
 import { CommonModule } from '@angular/common';
-import { Component } from '@angular/core';
+import { Component, NgModule } from '@angular/core';
 import { FormBuilder, FormGroup, FormsModule, ReactiveFormsModule, Validators } from '@angular/forms';
-import { Router, RouterLink } from '@angular/router';
+import { Router, RouterLink, RouterModule } from '@angular/router';
 import { User } from '../../core/Model/object-model';
 import { LoginSingupService } from '../../shared/services/login-singup.service';
 import { HttpClientModule } from '@angular/common/http';
@@ -9,10 +9,12 @@ import { HttpClientModule } from '@angular/common/http';
 @Component({
   selector: 'app-signin-signup',
   standalone: true,
-  imports: [RouterLink, CommonModule, HttpClientModule, FormsModule, ReactiveFormsModule],
+  imports: [CommonModule, HttpClientModule, FormsModule, ReactiveFormsModule, RouterLink],
   templateUrl: './signin-signup.component.html',
   styleUrl: './signin-signup.component.css'
 })
+
+
 export class SigninSignupComponent {
 
   regForm:boolean = false;

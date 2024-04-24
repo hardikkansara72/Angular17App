@@ -8,8 +8,6 @@ import { Observable } from 'rxjs';
 })
 
 export class LoginSingupService {
-  // public login_url = "http://localhost:3000";
-  // public register_url = "http://localhost:3000";
 
   constructor(private http:HttpClient, private apiService:ApiService) { }
   
@@ -24,6 +22,4 @@ export class LoginSingupService {
   adminLogin(user_name:any, password:any):Observable<any>{
     return this.apiService.get('/user?email='+user_name+'&password='+password+'&role=admin')
   }
-
-  
 }

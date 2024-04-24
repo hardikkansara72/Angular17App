@@ -1,6 +1,8 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
 import { UserCrudComponent } from './user-crud.component';
+import { AdminService } from '../services/admin.service';
+import { HttpClient, HttpHandler } from '@angular/common/http';
 
 describe('UserCrudComponent', () => {
   let component: UserCrudComponent;
@@ -8,7 +10,8 @@ describe('UserCrudComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [UserCrudComponent]
+      imports: [UserCrudComponent],
+      providers: [AdminService, HttpClient, HttpHandler]
     })
     .compileComponents();
     

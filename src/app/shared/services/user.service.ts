@@ -9,7 +9,7 @@ export class UserService {
 
   public user_url = "/user/"
 
-  constructor(private http:HttpClient, private apiService:ApiService) { }
+  constructor(private apiService:ApiService) { }
 
   getUserData(user_id:any){
     return this.apiService.get(this.user_url+user_id);

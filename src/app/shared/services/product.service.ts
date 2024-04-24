@@ -33,5 +33,4 @@ export class ProductService {
     return this.apiService.delete(this.product_url+id);
   }
 
-
 }

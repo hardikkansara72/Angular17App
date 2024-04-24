@@ -10,7 +10,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ContactUsComponent implements OnInit {
 
-
+  title = "Contact-us"
   showMap:boolean = false;
   constructor(){}
 

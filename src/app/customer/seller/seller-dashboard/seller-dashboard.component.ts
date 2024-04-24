@@ -1,7 +1,10 @@
 import { CommonModule } from '@angular/common';
-import { Component, OnInit } from '@angular/core';
+import { Component, NgModule, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
 import { CustomerService } from '../../services/customer.service';
+import { HttpClient, HttpClientModule } from '@angular/common/http';
+
+
 
 @Component({
   selector: 'app-seller-dashboard',
@@ -10,6 +13,8 @@ import { CustomerService } from '../../services/customer.service';
   templateUrl: './seller-dashboard.component.html',
   styleUrl: './seller-dashboard.component.css'
 })
+
+
 export class SellerDashboardComponent implements OnInit {
 
   order_dashboard_data:any;
