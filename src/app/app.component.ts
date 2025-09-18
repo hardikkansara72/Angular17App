@@ -27,8 +27,6 @@ export class AppComponent {
   getScreenSize(event:any){
     this.screenHeight = window.innerHeight;
     this.screenWidth = window.innerWidth;
-    
     this.footerMAxHeight = this.screenHeight -160;
-    // this.footerMAxHeight = this.screenHeight -160;
   }
 }
