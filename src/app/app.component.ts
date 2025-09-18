@@ -29,5 +29,6 @@ export class AppComponent {
     this.screenWidth = window.innerWidth;
     
     this.footerMAxHeight = this.screenHeight -160;
+    // this.footerMAxHeight = this.screenHeight -160;
   }
 }
